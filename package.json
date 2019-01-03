@@ -1,0 +1,17 @@
+{
+  "name": "http-server",
+  "version": "1.0.0",
+  "description": "Web server without dependecies",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "nodemon run server.js",
+    "start:router": "nodemon run router.js",
+    "start:body": "nodemon run body-content.js"
+  },
+  "author": "Erik Olofsson",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
